@@ -15,9 +15,9 @@ public class Main {
         //print a symbol n times
         char a = '$';
         char b = '%';
-        printSymbol(a, 13);
+        printSymbol(a, 12);
         printSymbol(b, x);
-        printSymbol('#', 41);
+        printSymbol('#', 14);
 
 
     }
