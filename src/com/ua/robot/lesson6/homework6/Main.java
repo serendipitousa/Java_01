@@ -48,7 +48,7 @@ public class Main {
         //Вивести числа фібоначчі до 100 (значення самого числа не повинно перевищувати 100)
         System.out.println();
         System.out.println();
-        System.out.println("4) числа фібоначчі до 100: ");
+        System.out.println("4) числа Фібоначчі до 100: ");
         int x = 0;
         int y = 1;
         System.out.print(x + " " + y + " ");
@@ -56,7 +56,7 @@ public class Main {
             int z = x + y;
             x = y;
             y = z;
-            if (z > 100) {
+            if (z >= 100) {
                 break;
             }
             System.out.print(z + " ");
