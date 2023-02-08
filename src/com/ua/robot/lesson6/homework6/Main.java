@@ -31,6 +31,8 @@ public class Main {
         while (start <= end) {
             result *= start;
             start++;
+/*            result = result * start;
+            start = start + 1;*/
         }
         System.out.print(result);
 
@@ -41,7 +43,7 @@ public class Main {
         System.out.print("3.2) факторіал числа 7: ");
         int total = 1;
         for (int i = 1; i <= 7; i++) {
-            total *= i;
+            total *= i; //total = total * i
                }
         System.out.print(total);
 
@@ -52,7 +54,7 @@ public class Main {
         int x = 0;
         int y = 1;
         System.out.print(x + " " + y + " ");
-        for (int i = 2; ; ++i) {
+        for (int i = 2; ; i++) {
             int z = x + y;
             x = y;
             y = z;

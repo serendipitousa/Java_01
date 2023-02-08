@@ -2,9 +2,9 @@ package com.ua.robot.lesson5.homework5;
 
 public class Main {
     public static void main(String[] args) {
-        int x = 9;
-        int y = 99;
-        int z = 7;
+        int x = 11;
+        int y = 11;
+        int z = 77;
         System.out.println("Question 1: What is maximum between x = " + x + " and y = " + y + " ?");
         System.out.println("Question 2: What is minimum between x = " + x + " and y = " + y + " ?");
         System.out.println("Question 3: Is z = " + z + " even or odd number ?");
