@@ -4,7 +4,7 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
         int[] array = setArray(1, 21);
-        System.out.println("1) Create an array with size of 10 elements");
+        System.out.println("1) Create an array with the size of 10 elements");
         System.out.print("2) Print the array: ");
         printArray(array);
         System.out.println();
